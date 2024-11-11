@@ -38,14 +38,37 @@ $navbar-dark-hover-color: $primary;
 
 // Change font family for headings
 
+$font-family-base: 'Source Sans 3', sans-serif;
+$headings-font-family: 'Libre Baskerville', serif;
 
 
 // Change font sizes for h1-h6 using values in assignment
 
+$h1-font-size: 3.052rem;
+$h2-font-size: 2.441rem;
+$h3-font-size: 1.953rem;
+$h4-font-size: 1.563rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Add additional custom code here
 
+footer {
+   background-color: $dark;
+   color: $light;
+ }
+
+ .navbar {
+   background-color: $dark /!important;
+ }
+ 
+
 // Target .navbar-brand and change font-family to use 'Libre Baskerville'.
+
+.navbar-brand {
+   font-family: 'Libre Baskerville', serif;
+ }
+ 
