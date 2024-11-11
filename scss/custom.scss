@@ -17,9 +17,19 @@ $danger: #E5446D;
 $light: #f2f2f2;
 $dark: #181853;
 
+body {
+   background-color: $light;
+ }
+ 
 
 // Adjust nav link hover color here
 
+$navbar-dark-color: $light;
+$navbar-dark-hover-color: $primary;
+
+.navbar {
+  background-color: $dark;
+}
 
 
 // Typography
